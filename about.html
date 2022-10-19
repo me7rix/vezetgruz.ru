@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Везёт Груз</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/fast-delivery.ico" type="image/x-icon">
+    <link rel="stylesheet" href="font/codenamecoder.css">
+</head>
+<body>
+    <div class="page2">
+        <header class="header">
+            <div class="transport">
+                <div class="text_main1">
+                    Транспортная компания
+                </div>
+                <div class="veset">
+                    Везёт груз
+                </div>
+            </div>
+            <div class="block_btn_header">
+                <div>
+                    <a href="#openModal1">
+                        <button type="submit" class="btn_header">
+                            Заказ звонка
+                        </button>
+                    </a>
+                </div>
+                <div>
+                    <a href="#openModal2">
+                        <button type="submit" class="btn_header">
+                            Заявка на перевозку
+                        </button>
+                    </a>
+                </div>
+                <!--модальные окна-->
+                <div id="openModal1" class="modalDialog1">
+                    <div>
+                        <a href="#close1" title="Закрыть" class="close1">X</a>
+                        <h2 class="h2-1">Заказ звонка</h2>
+                        <div>
+                            <form class="form-modal-window" action="">
+                                <div class="input-data">
+                                    <div class="input-modal-name input-mod">Имя</div>
+                                    <div class="input-modal-phone input-mod">Номер телефона</div>
+                                </div>
+                                <div class="form-modal-input">
+                                    <div>
+                                        <input type="text" maxlength="50"  placeholder="Иван" name="" id="">
+                                    </div>
+                                    <div>
+                                        <input type="number" maxlength="11"  placeholder="89426754721" name="" id="">
+                                    </div>
+                                </div>
+                            </form>
+                            <div>
+                                <a href="#openModal-phone">
+                                    <button type="submit" class="btn-send btn1">Заказать</button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="openModal2" class="modalDialog2">
+                    <div>
+                        <a href="#close2" title="Закрыть" class="close2">X</a>
+                        <h2 class="h2-1">Заявка на перевозку</h2>
+                        <div>
+                            <form class="form-modal-window" action="">
+                                <div class="input-data">
+                                    <div class="input-modal-name-2 input-mod">Имя</div>
+                                    <div class="input-modal-phone-2 input-mod">Номер телефона</div>
+                                    <div class="input-modal-cargo input-mod">Груз</div>
+
+                                </div>
+                                <div class="form-modal-input">
+                                    <div>
+                                        <input type="text" maxlength="50"  placeholder="Иван" name="" id="">
+                                    </div>
+                                    <div>
+                                        <input type="number" maxlength="11"  placeholder="89426754721" name="" id="">
+                                    </div>
+                                    <div>
+                                        <input type="text" maxlength="100"  placeholder="Доски, 20 шт." name="" id="">
+                                    </div>
+                                </div>
+                            </form>
+                            <div>
+                                <a href="#openModal-cargo">
+                                    <button type="submit" class="btn-send btn2">Заказать</button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--второстепенные окна-->
+                <div id="openModal-phone" class="modalDialog-phone">
+                    <div>
+                        <a href="#close1" title="Закрыть" class="close1">X</a>
+                        <h2 class="h2">Звонок заказан</h2>
+                        <p class="text-openModal-phone">Мы приняли ваш заказ и свяжемся с вами в ближайшее время!</p>
+                    </div>
+                </div>
+                <div id="openModal-cargo" class="modalDialog-cargo">
+                    <div>
+                        <a href="#close1" title="Закрыть" class="close1">X</a>
+                        <h2 class="h2">Заявка оформлена</h2>
+                        <p class="text-openModal-cargo">Мы приняли вашу заявку на перевозку и свяжемся с вами в ближайшее время!</p>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="phone_call">
+                <div class="text_main1">
+                    +7 (495) 792-21-21
+                </div>
+                <div class="call">
+                    Звоните с 8-00 до 22-00 перевозку <br> грузов осуществляем круглосуточно!
+                </div>
+            </div>
+        </header>
+        <nav class="menu">
+            <div class="point_menu">
+                <a href="index.html" class="links_menu" >
+                    Главная
+                </a>
+            </div>
+            <div class="point_menu">
+                <a href="#" class="links_menu_active">
+                    О нас
+                </a>
+            </div>
+            <div class="point_menu">
+                <a href="amount.html" class="links_menu">
+                    Цены
+                </a>
+            </div>
+            <div class="point_menu">
+                <a href="contacts.html" class="links_menu">
+                    Контакты        
+                </a>
+            </div>
+        </nav>
+
+        <div class="main_text about">
+            <div class="title">О нас</div>
+            <p class="p">Наша компания специализируется на грузоперевозках малотоннажным транспортом с кризисного 2015 года, при этом мы постоянно развиваемся и увеличиваем парк собственнго транспорта. Наши постоянные партнеры: Пан-прокат,  Арт-логистика, МирУпак, ПРОБИЗНЕС, а так же много частных заказчиков.</p>
+        </div>
+
+        <div class="main_text our_cars">
+            <div class="title">Наши машины</div>
+            <img src="img/car1.jpg" class="car2x1" alt="">
+            <img src="img/car2.jpg" class="car2x1" alt="">
+            <img src="img/car3.jpg" class="car2x1" alt="">
+            <img src="img/car4.jpg" class="car2x1" alt="">
+        </div>
+
+
+
+
+        <div class="end">
+            <div id="footer"></div>
+            <footer>
+                <div class="one_block_footer">
+                    <div>
+                        <div>Транспортная компания</div>
+                        <div>Перевозка грузов малотоннажным транспортом</div>
+                    </div>
+                    <div class="data_company">
+                        <div>+7 (495) 792-21-21</div>
+                        <div>Москва</div>
+                        <div>vzgruz@gmail.com</div>
+                    </div>
+                </div>
+                <div class="copyright">© 2018 vezetgruz.ru. Вся информация, размещенная на сайте, носит ознакомительный характер и не является публичной офертой, определяемой положениями Статьи 437 Гражданского кодекса РФ.</div>            
+            </footer>
+        </div>
+        
+    </div>
+</body>
+</html>

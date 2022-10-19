@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Везёт Груз</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/fast-delivery.ico" type="image/x-icon">
+    <link rel="stylesheet" href="font/codenamecoder.css">
+</head>
+<body>
+    <div class="page1">
+        <header class="header">
+            <div class="transport">
+                <div class="text_main1">
+                    Транспортная компания
+                </div>
+                <div class="veset">
+                    Везёт груз
+                </div>
+            </div>
+            <div class="block_btn_header">
+                <div>
+                    <a href="#openModal1">
+                        <button type="submit" class="btn_header">
+                            Заказ звонка
+                        </button>
+                    </a>
+                </div>
+                <div>
+                    <a href="#openModal2">
+                        <button type="submit" class="btn_header">
+                            Заявка на перевозку
+                        </button>
+                    </a>
+                </div>
+                <!--модальные окна-->
+                <div id="openModal1" class="modalDialog1">
+                    <div>
+                        <a href="#close1" title="Закрыть" class="close1">X</a>
+                        <h2 class="h2-1">Заказ звонка</h2>
+                        <div>
+                            <form class="form-modal-window" action="">
+                                <div class="input-data">
+                                    <div class="input-modal-name input-mod">Имя</div>
+                                    <div class="input-modal-phone input-mod">Номер телефона</div>
+                                </div>
+                                <div class="form-modal-input">
+                                    <div>
+                                        <input type="text" maxlength="50"  placeholder="Иван" name="" id="">
+                                    </div>
+                                    <div>
+                                        <input type="number" maxlength="11"  placeholder="89426754721" name="" id="">
+                                    </div>
+                                </div>
+                            </form>
+                            <div>
+                                <a href="#openModal-phone">
+                                    <button type="submit" class="btn-send btn1">Заказать</button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="openModal2" class="modalDialog2">
+                    <div>
+                        <a href="#close2" title="Закрыть" class="close2">X</a>
+                        <h2 class="h2-1">Заявка на перевозку</h2>
+                        <div>
+                            <form class="form-modal-window" action="">
+                                <div class="input-data">
+                                    <div class="input-modal-name-2 input-mod">Имя</div>
+                                    <div class="input-modal-phone-2 input-mod">Номер телефона</div>
+                                    <div class="input-modal-cargo input-mod">Груз</div>
+
+                                </div>
+                                <div class="form-modal-input">
+                                    <div>
+                                        <input type="text" maxlength="50"  placeholder="Иван" name="" id="input1">
+                                    </div>
+                                    <div>
+                                        <input type="number" maxlength="11"  placeholder="89426754721" name="" id="input">
+                                    </div>
+                                    <div>
+                                        <input type="text" maxlength="100"  placeholder="Доски, 20 шт." name="" id="input">
+                                    </div>
+                                </div>
+                            </form>
+                            <div>
+                                <a href="#openModal-cargo">
+                                    <button type="submit" id="zakaz" class="btn-send btn2">Заказать</button>
+                                </a>
+                                <script>
+                                    function zakazat() {
+                                        
+                                    }
+                                </script>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--второстепенные окна-->
+                <div id="openModal-phone" class="modalDialog-phone">
+                    <div>
+                        <a href="#close1" title="Закрыть" class="close1">X</a>
+                        <h2 class="h2">Звонок заказан</h2>
+                        <p class="text-openModal-phone">Мы приняли ваш заказ и свяжемся с вами в ближайшее время!</p>
+                    </div>
+                </div>
+                <div id="openModal-cargo" class="modalDialog-cargo">
+                    <div>
+                        <a href="#close1" title="Закрыть" class="close1">X</a>
+                        <h2 class="h2">Заявка оформлена</h2>
+                        <p class="text-openModal-cargo">Мы приняли вашу заявку на перевозку и свяжемся с вами в ближайшее время!</p>
+                    </div>
+                </div>
+
+
+
+
+            </div>
+            <div class="phone_call">
+                <div class="text_main1">
+                    +7 (495) 792-21-21
+                </div>
+                <div class="call">
+                    Звоните с 8-00 до 22-00 перевозку <br> грузов осуществляем круглосуточно!
+                </div>
+            </div>
+        </header>
+        <nav class="menu">
+            <div class="point_menu">
+                <a href="#" class="links_menu_active">
+                    Главная
+                </a>
+            </div>
+            <div class="point_menu">
+                <a href="about.html" class="links_menu">
+                    О нас
+                </a>
+            </div>
+            <div class="point_menu">
+                <a href="amount.html" class="links_menu">
+                    Цены
+                </a>
+            </div>
+            <div class="point_menu">
+                <a href="contacts.html" class="links_menu">
+                    Контакты        
+                </a>
+            </div>
+        </nav>
+        <div class="block_img_main_page">
+            <img src="img/main 1.jpg" class="img_main_page" alt="">
+        </div>
+        <div class="main_text whyup">
+            <div id="why_veset_gruz">
+                <div class="why_veset_gruz_veset">Почему ВЕЗЁТ ГРУЗ</div>
+            </div>
+            
+            <p class="p">Качество, ответственность, честность, надежность! Руководствуясь только этими правилами   мы  смогли  добиться   хороших   результатов  и  опыта   в   нашей    работе!</p>
+            <p class="p">Наши   водители  с удовольствием доставят все, что вам нужно, в любую точку Москвы и Московской области. Компания «ВЕЗЁТ ГРУЗ» работает с юридическими и физическими лицами, осуществляет транспортировку движимого имущества заказчика, а также предлагает специальные тарифные планы. Грузоперевозки - это та работа, которой мы занимаемся на протяжении 7 лет.</p>
+        </div>
+        <div class="block_img_main_page">
+            <img src="img/main 2.jpg" class="img_main_page" alt="">
+        </div>
+        <div id="why">
+            <div class="title">Почему с нами работают</div>
+            <div>
+                <div class="stroka_card">
+                    <div class="card">
+                        <div>
+                            <img src="img/cards.png" class="img_card" alt="">
+                        </div>
+                        <div class="text_card">
+                            Удобные способы оплаты
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div>
+                            <img src="img/Lorry_Green.png" class="img_card" alt="">
+                        </div>
+                        <div class="text_card">
+                            Доставляем груз точно в срок
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div>
+                            <img src="img/money1.png" class="img_card" alt="">
+                        </div>
+                        <div class="text_card">
+                            Фиксированная стоимость
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div>
+                            <img src="img/warranty cargo.png" class="img_card" alt="">
+                        </div>
+                        <div class="text_card">
+                            Гарантия сохранности груза
+                        </div>
+                    </div>
+                </div>
+
+                <div class="stroka_card">
+                    <div class="card">
+                        <div>
+                            <img src="img/driver.png" class="img_card_time" alt="">
+                        </div>
+                        <div class="text_card">
+                            Аккуратные и опытные водители
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div>
+                            <img src="img/time.png" class="img_card_time" alt="">
+                        </div>
+                        <div class="text_card">
+                            Работаем 7 дней в неделю, 24 часа в сутки
+                        </div>
+                    </div>
+                    <div class="card rovn_card">
+                        <div>
+                            <img src="img/russia.png" class="img_card" alt="">
+                        </div>
+                        <div class="text_card">
+                            Перевозки по Москве, МО и регионам
+                        </div>
+                    </div>
+                    <div class="card transport_card">
+                        <div>
+                            <img src="img/transport.png" class="img_card" alt="">
+                        </div>
+                        <div class="text_card">
+                            Гарантия подачи автомобиля
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="title">Услуги</div>
+        <div class="main_text">
+            <h3>КВАРТИРНЫЙ ИЛИ ДАЧНЫЙ ПЕРЕЕЗД?</h3>
+            <p class="p">В нашей компании действуют специальные <a href="#" class="tarif">тарифные планы</a>, позволяющие сделать и так недорогую перевозку вещеё на квартура или дачу в Подмосковье ещё дешевле. Мы оставили прошлогодние цены, но совершенствуем сервис. И это не мешает нам гарантировать полную сохранность вашего имущества в процессе транспортировки!</p>
+        </div>
+       
+
+
+        <div id="footer"></div>
+        <footer>
+            <div class="one_block_footer">
+                <div>
+                    <div>Транспортная компания</div>
+                    <div>Перевозка грузов малотоннажным транспортом</div>
+                </div>
+                <div class="data_company">
+                    <div>+7 (495) 792-21-21</div>
+                    <div>Москва</div>
+                    <div>vzgruz@gmail.com</div>
+                </div>
+            </div>
+            <div class="copyright">© 2018 vezetgruz.ru. Вся информация, размещенная на сайте, носит ознакомительный характер и не является публичной офертой, определяемой положениями Статьи 437 Гражданского кодекса РФ.</div>            
+         </footer>
+
+    </div>
+    
+    
+</body>
+</html>
